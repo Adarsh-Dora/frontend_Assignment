@@ -1,0 +1,9 @@
+/* No specific styling for icons, as they are SVGs. Just ensure proper alignment */
+.status-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  display: block;
+}

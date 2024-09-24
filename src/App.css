@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.controls {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.controls select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.kanban-board {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.navbar{
+ background-color: #fff;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ height: 64px;
+ padding-left: 12px ;
+ padding-right: 12px;
+ display: flex;
+ align-items: center;
+}
+
+.navbar button {
+  margin-top: 12px;
 }

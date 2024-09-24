@@ -1,0 +1,50 @@
+.ticket-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-box:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ticket-content p {
+  margin: 8px;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.ticket-content p strong {
+  font-weight: 600;
+}
+.ticket-tag {
+  display: flex;
+  align-items: center;
+}
+
+.priority-icon {
+  margin-right: 10px; /* Space between icon and tag */
+  font-size: 14px;    /* Adjust icon size */
+}
+
+.feature {
+
+  margin-right: 4px; /* Space between icon and tag */
+  /* Adjust icon size */
+}
